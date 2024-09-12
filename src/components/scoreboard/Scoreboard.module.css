@@ -1,0 +1,118 @@
+.mainScoreBoard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 54, 179);
+    padding: 40px;
+}
+.home,
+.guest,
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    border: 2px solid white;
+    padding: 10px;
+}
+.home,
+.guest {
+    padding: 15px;
+}
+.count{
+    margin-bottom: 50px;
+    border: none;
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.thePeriod,
+.score {
+    text-align: center;
+    font-size: 3.5rem;
+    border: 1px solid grey;
+    width: 100px;
+    background-color: black;
+    color: orange;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+
+}
+.btn > button{
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    border: 1px solid gray;
+    border-radius: 0;
+}
+.divide {
+    padding: 20px;
+    font-size: 5rem;
+}
+.keeper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0px 40px 20px 40px;
+    background-color: rgb(54, 54, 179);
+}
+.periodBtn {
+    padding: 10px;
+    font-size: 2rem;
+    border: 1px solid gray;
+    border-radius: 0;
+}
+
+.periods {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 15px;
+    border: 2px solid white;
+    border-top: none;
+}
+.perHome,
+.perGuest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.periods p {
+    width: 100px;
+    padding: 10px 25px; 
+}
+.title,
+.perGuest,
+.perHome {
+    color: white;
+}
+.p1,
+.p2,
+.p3,
+.p4 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+button:hover {
+    background-color: lightgray;
+}
+button:active {
+    background-color: grey;
+}
